@@ -1,11 +1,13 @@
-function route(handle, pathname){
+function route(handle, pathname, response){
     console.log("About to route request : " + pathname);
 
     if(typeof handle[pathname] === 'function') {
-        return handle[pathname]();
+        return handle[pathname](response);
     }else{
         console.log("No route handler found for " + pathname);
-        return "404 Not Found !";
+        response.writeHead(404, {"Content-Type":"text/plain"});
+        response.write("404 Not Found");
+        response.end();
     }
 }
 

@@ -1,17 +1,20 @@
-function start(){
+var exec = require("child_process").exec;
+
+function start(response){
     console.log('RequestHandler "start" was called');
-    // 模拟阻塞操作
-    function sleep(milliSeconds){
-        var startTime = new Date().getTime();
-        while(new Date().getTime() < startTime + milliSeconds);
-    }
-    sleep(10000);
-    return "hellp start...";
+    
+    exec("ls -lah", function(error, stdout, stderr){
+        response.writeHead(200, {"Content-Type":"text/plain"});
+        response.write(stdout);
+        response.end();
+    });
 }
 
-function upload(){
-    console.log('RequestHandler "upload" was called');
-    return "hellp upload...";
+function upload(response){
+    console.log('RequestHandler "upload" was called'); 
+    response.writeHead(200, {"Content-Type":"text/plain"});
+    response.write("Hello Upload...");
+    response.end();
 }
 
 exports.start = start;
