@@ -4,6 +4,8 @@ Node.js 学习笔记
 
 ### part 1. 学习HelloWorld, Node.js模块
 
+Origin： http://www.nodebeginner.org/index-zh-cn.html 
+
 Node.js是事件驱动
 
 回调
