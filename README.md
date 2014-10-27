@@ -25,3 +25,7 @@ Node.js是事件驱动
 图片上传功能：使用外部模块
 
 ### part 2. 第二部分
+
+Origin: https://github.com/alsotang/node-lessons
+
+
