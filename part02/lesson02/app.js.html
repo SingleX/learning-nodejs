@@ -1,0 +1,18 @@
+<p>var express = require('express');
+var utility = require('utility');</p>
+
+<p>var app = express();</p>
+
+<p>app.get('/', function(req, res){
+    var q = req.query.q;</p>
+
+<pre><code>var md5Value = utility.md5(q);
+
+res.send(md5Value);
+</code></pre>
+
+<p>});</p>
+
+<p>app.listen(3000, function(req, res){
+    console.log('app started at 3000 port');
+});</p>
