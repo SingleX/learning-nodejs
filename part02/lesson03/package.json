@@ -1,0 +1,16 @@
+{
+  "name": "lesson03",
+  "version": "1.0.0",
+  "description": "学习Node爬虫",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SingleX",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "express": "^4.10.1",
+    "superagent": "^0.20.0"
+  }
+}
