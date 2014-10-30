@@ -28,4 +28,8 @@ Node.js是事件驱动
 
 Origin: https://github.com/alsotang/node-lessons
 
+0、安装nvm(Node Version Manager)，使用nvm安装Node
+
+1、使用express模块完成一个Hello的例子。之前的part01里都是调用Node自己的http方法实现的。这里的express.js相当于框架。
+
 
