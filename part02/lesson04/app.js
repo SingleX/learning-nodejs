@@ -34,7 +34,8 @@ superagent.get(cnodeUrl)
             return ({
                 title:$('.topic_full_title').text().trim(),
                 href:topicUrl,
-                comment1:$('.reply_content').eq(0).text().trim()
+                comment1:$('.reply_content').eq(0).text().trim(),
+                author1:$('.reply_author').eq(0).text().trim()
             });
         });
         console.log('final:');
