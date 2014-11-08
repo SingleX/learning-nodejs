@@ -43,7 +43,9 @@ superagent.get(cnodeUrl)
     });
 
     // 获取详情页的信息，并返回数据
+    var i = 0;
     topicUrls.forEach(function(topicUrl){
+        console.log("并发连接数：" + (++i));
         superagent.get(topicUrl)
         .end(function(err, res){
             console.log('fetch ' + topicUrl + ' done.');
