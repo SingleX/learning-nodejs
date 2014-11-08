@@ -37,3 +37,5 @@ Origin: https://github.com/alsotang/node-lessons
 3、编写Node爬虫，依赖superagent实现http请求，依赖cheerio实现获取dom节点数据。
 
 4、使用eventproxy控制并发，这个不错！
+
+5、使用async控制并发连接数，略吊~~
