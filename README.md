@@ -39,3 +39,5 @@ Origin: https://github.com/alsotang/node-lessons
 4、使用eventproxy控制并发，这个不错！
 
 5、使用async控制并发连接数，略吊~~
+
+6、编写javascript测试驱动
