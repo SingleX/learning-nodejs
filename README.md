@@ -40,4 +40,6 @@ Origin: https://github.com/alsotang/node-lessons
 
 5、使用async控制并发连接数，略吊~~
 
-6、编写javascript测试驱动
+6、编写javascript测试驱动，学习mocha测试框架，should断言，istanbul测试率覆盖工具，学习写Makefile
+
+7、浏览器端测试，使用chai和phantomjs
