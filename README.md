@@ -43,3 +43,7 @@ Origin: https://github.com/alsotang/node-lessons
 6、编写javascript测试驱动，学习mocha测试框架，should断言，istanbul测试率覆盖工具，学习写Makefile
 
 7、浏览器端测试，使用chai和phantomjs
+
+8、
+
+9、正则表达式。。。。哪里都有它~~~~

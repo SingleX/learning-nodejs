@@ -12,3 +12,5 @@ m：意思是^和$可以匹配每一行的开头
 g 参数会影响一些函数的返回值：
 String.prototype.match();
 RegExp.prototype.exex();
+
+关于跨行匹配
