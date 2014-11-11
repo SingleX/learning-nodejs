@@ -44,6 +44,6 @@ Origin: https://github.com/alsotang/node-lessons
 
 7、浏览器端测试，使用chai和phantomjs
 
-8、
+8、supertest测试。nodemon好用的自动重启node工具。cookie持久化
 
 9、正则表达式。。。。哪里都有它~~~~
