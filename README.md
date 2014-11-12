@@ -62,3 +62,5 @@ Origin: https://github.com/alsotang/node-lessons
     c）this。有所属对象时指向所属对象，没有所属对象是指向全局对象，new出来的指向新对象，apply/call的指向绑定的对象。
 
 12、线上部署。heroku
+
+13、在线travis对app进行持续集成测试
