@@ -64,3 +64,7 @@ Origin: https://github.com/alsotang/node-lessons
 12、线上部署。heroku
 
 13、在线travis对app进行持续集成测试
+
+14、关于js中的最佳实践。介绍的书不错
+
+15、安装使用Mongodb
