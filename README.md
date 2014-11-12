@@ -57,3 +57,5 @@ Origin: https://github.com/alsotang/node-lessons
     b）闭包。使内部函数可以访问定义在外部函数中的变量。
 
     c）this。有所属对象时指向所属对象，没有所属对象是指向全局对象，new出来的指向新对象，apply/call的指向绑定的对象。
+
+12、线上部署。heroku
