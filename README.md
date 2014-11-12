@@ -1,6 +1,9 @@
 Node.js 学习笔记
 ================
 
+[![Build Status](https://travis-ci.org/SingleX/learning-nodejs.svg?branch=master)](https://travis-ci.org/SingleX/learning-nodejs)
+
+*去搞了个这个东西来，哈哈哈*
 
 ### part 1. 学习HelloWorld, Node.js模块
 
