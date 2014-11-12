@@ -47,3 +47,5 @@ Origin: https://github.com/alsotang/node-lessons
 8、supertest测试。nodemon好用的自动重启node工具。cookie持久化
 
 9、正则表达式。。。。哪里都有它~~~~
+
+10、Benchmark。测试干成同一件事时，不同方法的执行效率比较
