@@ -67,4 +67,4 @@ Origin: https://github.com/alsotang/node-lessons
 
 14、关于js中的最佳实践。介绍的书不错
 
-15、安装使用Mongodb
+15、安装使用Mongodb, 使用mongoose连接Mongodb操作数据库
