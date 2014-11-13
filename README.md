@@ -68,3 +68,7 @@ Origin: https://github.com/alsotang/node-lessons
 14、关于js中的最佳实践。介绍的书不错
 
 15、安装使用Mongodb, 使用mongoose连接Mongodb操作数据库
+
+16、express中的cookie。内存中的session。redis做缓存，存储session，主要为了状态共享。
+
+17、Promise。这个东西没有完全看懂，貌似有基础知识空缺，，，恶补。。。
